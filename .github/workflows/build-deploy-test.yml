@@ -31,14 +31,11 @@ jobs:
     - name: Run tests
       run: npm run test
 
-    - name: Export static project
-      run: npm run export
-
     - name: Upload test-ready build files
       uses: actions/upload-artifact@v2
       with:
-        name: test-files
-        path: ./out
+        name: build-files
+        path: ./build
   
   deploy:
     name: Deploy
@@ -50,8 +47,8 @@ jobs:
     - name: Download artifact
       uses: actions/download-artifact@v2
       with:
-        name: test-files
-        path: ./out
+        name: download-build-files
+        path: ./build
 
     - name: Deploy to Test Location
       uses: shimataro/ssh-key-action@v2
@@ -59,4 +56,4 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         known_hosts: ${{ secrets.SSH_KNOWN_HOSTS }}
     - name: Deploy with rsync
-      run: rsync -avz ./out/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.DEPLOY_LOC_TEST }}
+      run: rsync -avz ./build/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.DEPLOY_LOC_TEST }}
