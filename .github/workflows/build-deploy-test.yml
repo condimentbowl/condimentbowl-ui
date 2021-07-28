@@ -24,13 +24,13 @@ jobs:
     
     - name: Install NPM packages
       run: npm ci
+
+    - name: Run tests
+      run: npm run test --passWithNoTests
     
     - name: Build project
       run: npm run build
     
-    - name: Run tests
-      run: npm run test
-
     - name: Upload test-ready build files
       uses: actions/upload-artifact@v2
       with:
