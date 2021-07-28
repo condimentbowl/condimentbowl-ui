@@ -44,7 +44,7 @@ jobs:
     - name: Download artifact
       uses: actions/download-artifact@v2
       with:
-        name: download-build-files
+        name: build-files
         path: ./build
 
     - name: Deploy to Test Location
