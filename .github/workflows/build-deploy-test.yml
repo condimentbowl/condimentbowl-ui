@@ -24,9 +24,6 @@ jobs:
     
     - name: Install NPM packages
       run: npm ci
-
-    - name: Run tests
-      run: npm run test --passWithNoTests
     
     - name: Build project
       run: npm run build
