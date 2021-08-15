@@ -4,9 +4,13 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <h2>GOT QUESTIONS?</h2>
-        <p>The easiest thing to do is post on
-        our <a href="http://forum.kirupa.com">forums</a>.
+        <h2>Questions</h2>
+        <p>
+          Reach out to the league commissioners on the <a href="https://sleeper.app/leagues/699672633066725376">league page</a> if there are any questions.
+        </p>
+        <h2>Feature Requests</h2>
+        <p>
+          For feature requests <a href="https://github.com/condimentbowl/condimentbowl-ui/issues">create an issue</a> on the official project in Github.
         </p>
       </div>
     );
