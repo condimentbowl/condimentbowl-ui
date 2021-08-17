@@ -41,28 +41,42 @@ class Teams extends Component {
       return <div>Loading...</div>;
     } else {
       teams.forEach((team) => {
-        let slimTeam = {};
+        let indTeam = {};
+        const curAvatarUri = team.avatar !== null ? team.avatar : "82aec8e811b839b8ec25d7b458afd57b"
         if (team.metadata.team_name) {
-          slimTeam = {
-            locTeamName: team.metadata.team_name,
-            locUserId: team.user_id
+
+          indTeam = {
+            indTeamName: team.metadata.team_name,
+            indUserId: team.user_id,
+            indAvatarUri: "https://sleepercdn.com/avatars/" + curAvatarUri
           };
         } else {
-          slimTeam = {
-            locTeamName: team.display_name,
-            locUserId: team.user_id
+          indTeam = {
+            indTeamName: team.display_name,
+            indUserId: team.user_id,
+            indAvatarUri: "https://sleepercdn.com/avatars/" + curAvatarUri
           };
         }
-        teamNames.push(slimTeam);
+        teamNames.push(indTeam);
       });
+
+
+
       return (
-        <ul>
+        <div>
+          <ul>
+            {teamNames.map(item => (
+              <li key={item.user_id}>
+                {item.indTeamName} - {item.indAvatarUri}
+              </li>
+            ))}
+          </ul>
+          <div>
           {teamNames.map(item => (
-            <li key={item.user_id}>
-              {item.locTeamName}
-            </li>
-          ))}
-        </ul>
+            <img src={item.indAvatarUri} alt=""></img>
+            ))}
+          </div>
+        </div>
       );
     }
   }
