@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import conPic from './Home/league_home.jpg';
+import conPic from '../public/league_home.jpg';
 
 class Home extends Component {
   render() {
