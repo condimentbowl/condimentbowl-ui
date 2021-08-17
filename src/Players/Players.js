@@ -4,25 +4,20 @@ import playerFile from "./getAllPlayers.json"
 class Players extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      error: null,
-      isLoaded: false,
-      players: {}
-    };
   }
 
   render() {
-    for (let [key, value] of Object.entries(playerFile)) {
-      console.log(value.age);
+    //loop through players in the player file like below
+    for (const player in playerFile) {
+      console.log(playerFile[player]);
     }
-
-      return (
-        <ul>
-            <li key="123">
-              boosh
-            </li>
-        </ul>
-      );
+    return (
+      <ul>
+        <li key="123">
+          temp page
+        </li>
+      </ul>
+    );
   }
 }
 
