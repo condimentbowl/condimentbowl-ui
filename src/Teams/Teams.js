@@ -61,15 +61,22 @@ class Teams extends Component {
       });
 
 
-      
+
       return (
-        <ul>
+        <div>
+          <ul>
+            {teamNames.map(item => (
+              <li key={item.user_id}>
+                {item.indTeamName} - {item.indAvatarUri}
+              </li>
+            ))}
+          </ul>
+          <div>
           {teamNames.map(item => (
-            <li key={item.user_id}>
-              {item.indTeamName} - {item.indAvatarUri}
-            </li>
-          ))}
-        </ul>
+            <img src={item.indAvatarUri} alt=""></img>
+            ))}
+          </div>
+        </div>
       );
     }
   }
