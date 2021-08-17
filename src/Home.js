@@ -7,7 +7,7 @@ class Home extends Component {
         <h2>Welcome</h2>
         <p>Hold your pants because this is going to be lit.</p>
  
-        <p>Swag boiiis</p>
+        <p>this is a test to see if mike knows how to do website stuff</p>
       </div>
     );
   }
