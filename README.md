@@ -11,14 +11,14 @@ The Condiment Bowl was established in 2016 and was hosted on the offical [NFL Fa
 
 Sleeper provides an [overview][sleeper-fantasy-overview] of their platform including features, how to play, mockdrafts, and more. Additional support for the platform can be found on their [support page][sleeper-support-page], or the [offical Sleeper App subreddit][sleeper-subreddit].
 
-<sub>* For legacy purposes, league data from it's time on the NFL Fantasy can be accessed [here][nfl-cb]</sub>
+<sub>* For legacy purposes, league data from it's time on the NFL Fantasy platform can be accessed [here][nfl-cb]</sub>
 
 
 ### 🎟️ Draft Lottery
 
 The Condiment Bowl uses a lottery process to determine each teams draft position. Each manager's team will be given an amount of entries based on their final standing from the previous season.
 
-The table below provides the number of entries that will be assigned to teams based on the previous season's results. In general _Consolation Bowl_ teams have a more chances than playoff teams to encourage year-to-year parity. To discourage tanking, higher ranked teams generally have more entries than lower ranked teams. The only exception to this are the two teams that participated in the pervious season's Championship match, who will recieve a single entry each (Neither team would tank in the championship).
+The table below provides the number of entries (100 total) that will be assigned to teams based on the previous season's results. In general _Consolation Bowl_ teams have more entries than playoff teams to encourage year-to-year parity. To discourage tanking, higher ranked teams generally have more entries than lower ranked teams. The only exceptions to this are the two teams that participated in the previous season's Championship match. These teams will recieve a single entry each (neither team would tank in the championship).
 
 Place | Bracket          | # of Entries
 --    | --               | --
