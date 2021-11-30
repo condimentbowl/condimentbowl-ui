@@ -49,7 +49,7 @@ Place | Team   | # of Entries
 9th   | Team I | 15
 10th  | Team J | 10
 
-The commissioner picks and entry at random and it belongs to Team I. Team I now has thier choice of drafting from position 1-10. Team I chooses position 1. The commissioner would pick another entry at random. This time it's Team G. Team G has the choice of drafting from position 2-10. Team G selects position 3. The commissioner would pick another entry at random and this time it it belongs to Team I (a team that was previous drawn). The commissioner would continue to draw until the pulled entry belongs to someone who hasn't selected yet. This process would continue until all draft positions are claimed.
+The commissioner picks an entry at random and it belongs to Team I. Team I now has their choice of drafting from position 1-10. Team I chooses position 1. The commissioner would pick another entry at random. This time it's Team G. Team G has the choice of drafting from position 2-10. Team G selects position 3. The commissioner would pick another entry at random and this time it belongs to Team I again (a team that was previous drawn). The commissioner would continue to draw until the pulled entry belongs to someone who hasn't selected yet. This process would continue until all draft positions are claimed.
 
 ### 🔁 Trading
 TBD
