@@ -5,6 +5,8 @@
 ---
 ## Insomnia Collection For Sleeper API
 
+Sleeper provides an [API][sleeper-api] for accessing league information. condimentbowl-ui provides an Insomnia Collection will all availble endpoints for easier user access.
+
 ### Getting Started
 1. Install [Insomnia][insomnia]
 2. Import the collection provided by condimentbowl-ui [here][insomnia-collection]
@@ -84,3 +86,4 @@ TBD
 [fantasy-football-subreddit]: https://www.reddit.com/r/fantasyfootball/
 [insomnia]: https://insomnia.rest/
 [insomnia-collection]: https://github.com/condimentbowl/condimentbowl-ui/blob/master/sleeperAPICollection/Insomnia_collection.json
+[sleeper-api]: https://docs.sleeper.app/
