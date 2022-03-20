@@ -3,6 +3,25 @@
 ![Build Deploy Test](https://github.com/condimentbowl/condimentbowl-ui/actions/workflows/build-deploy-test.yml//badge.svg)
 
 ---
+## Insomnia Collection For Sleeper API
+
+Sleeper provides an [API][sleeper-api] for accessing league information. condimentbowl-ui provides an Insomnia Collection will all availble endpoints for easier user access.
+
+### Getting Started
+1. Install [Insomnia][insomnia]
+2. Import the collection provided by condimentbowl-ui [here][insomnia-collection]
+3. Setup Base Environment variable as defined below
+
+```
+{
+  "baseUrl_v1": "https://api.sleeper.app/v1",
+  "leagueId": "699672633066725376",
+  "my_userId": "102845756322758656",
+  "my_username": "ellefent",
+  "my_avatar_id": "f5c029ea930d39764494f2fa92d84e47"
+}
+```
+---
 
 ## League Information
 
@@ -65,3 +84,6 @@ TBD
 [sleeper-support-page]: https://support.sleeper.app/en/
 [sleeper-subreddit]: https://www.reddit.com/r/SleeperApp/
 [fantasy-football-subreddit]: https://www.reddit.com/r/fantasyfootball/
+[insomnia]: https://insomnia.rest/
+[insomnia-collection]: https://github.com/condimentbowl/condimentbowl-ui/blob/master/sleeperAPICollection/Insomnia_collection.json
+[sleeper-api]: https://docs.sleeper.app/
